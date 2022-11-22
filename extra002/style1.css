@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    background-color:chocolate;
+}
+
+#main {
+    color: coral;
+    font-family: cursive;
+}
+
+h1 {
+    color: rgb(70, 135, 192);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+main{
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(148, 117, 98);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+p {
+    font-size: 25px
+}
