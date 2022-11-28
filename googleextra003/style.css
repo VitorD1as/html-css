@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+:root{
+    --fundo: #202124;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: var(--fundo);
+}
+
+.navbar{
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 7.5px;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.gb_Ve{
+    width: 24px;
+    height: 24px;
+    padding-top: 10px;
+}
+
+.gb_Ca{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%
+}
